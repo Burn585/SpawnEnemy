@@ -24,6 +24,7 @@ public class Spawner : MonoBehaviour
     private IEnumerator CreateEnemy()
     {
         var waitForTwoSeconds = new WaitForSeconds(2f);
+
         while (true)
         {
             for (int i = 0; i < _spawns.Length; i++)
